@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "politehnum",
+  "version": "0.0.1",
+  "name": "Politehnum",
+  "description": "No way this mod is insane!",
+  "authors": [
+    "Hambing",
+    "Bublik",
+    "Klim"
+  ],
+  "contact": {
+    "repo": "https://github.com/Hambingoo/Politehnum"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/politehnum/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "org.hambubklim.politehnum.client.PolitehnumClient"
+    ],
+    "main": [
+      "org.hambubklim.politehnum.Politehnum"
+    ]
+  },
+  "mixins": [
+    "politehnum.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.6",
+    "fabric": "*",
+    "minecraft": "1.20"
+  }
+}
