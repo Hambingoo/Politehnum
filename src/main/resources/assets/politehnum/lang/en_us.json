@@ -1,6 +1,9 @@
 {
   "item.politehnum.politehnum": "Politehnum",
   "itemgroup.politehnum": "Politehnum",
-  "block.politehnum.politehnum_ore": "Politehnum ore"
-
+  "block.politehnum.politehnum_ore": "Politehnum ore",
+  "item.politehnum.politehnum_helmet": "Politehnum Helmet",
+  "item.politehnum.politehnum_chestplate": "Politehnum Chestplate",
+  "item.politehnum.politehnum_leggins": "Politehnum Leggins",
+  "item.politehnum.politehnum_boots": "Politehnum Boots"
 }

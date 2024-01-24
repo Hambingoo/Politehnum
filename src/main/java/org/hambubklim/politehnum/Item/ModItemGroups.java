@@ -22,6 +22,13 @@ public class ModItemGroups {
 
                         entries.add(ModBlocks.POLITEHNUM_ORE);
 
+
+                        entries.add(ModItems.POLITEHNUM_HELMET);
+                        entries.add(ModItems.POLITEHNUM_CHESTPLATE);
+                        entries.add(ModItems.POLITEHNUM_LEGGINS);
+                        entries.add(ModItems.POLITEHNUM_BOOTS);
+
+
                     }).build());
     public static void registerItemGroup(){
         Politehnum.LOGGER.info("Regestering Item Groups for "+Politehnum.MOD_ID);
