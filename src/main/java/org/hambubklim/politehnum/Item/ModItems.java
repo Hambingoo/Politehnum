@@ -7,6 +7,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemGroups;
+import net.minecraft.item.PickaxeItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
@@ -16,6 +17,9 @@ import org.hambubklim.politehnum.Politehnum;
 public class ModItems {
 
     public static final Item POLITEHNUM = register("politehnum",new Item(new FabricItemSettings()));
+
+    public static final Item POLITEHNUM_PICKAXE = register("politehnum_pickaxe",
+            new PickaxeItem(ModToolMaterial.POLITEHNUM,2,2f, new FabricItemSettings()));
 
 
 

@@ -1,12 +1,14 @@
 package org.hambubklim.politehnum.Item;
 
+import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.Items;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
 import java.util.function.Supplier;
 
 public enum ModToolMaterial implements ToolMaterial {
-    ;
+    POLITEHNUM(4, 4062, 11.0F, 4.0F, 15, () -> Ingredient.ofItems((ModItems.POLITEHNUM)));
 
     private final int miningLevel;
     private final int itemDurability;
