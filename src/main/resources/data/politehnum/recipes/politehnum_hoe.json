@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "politehnum:politehnum"
+    },
+    "C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "XX",
+    " X",
+    " C"
+  ],
+  "result": {
+    "item": "politehnum:politehnum_hoe"
+  },
+  "show_notification": true
+}

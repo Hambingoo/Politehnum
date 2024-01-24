@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "X": {
+      "item": "politehnum:politehnum"
+    },"C": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    " XX",
+    "XX ",
+    "C  "
+  ],
+  "result": {
+    "item": "politehnum:politehnum_sword"
+  },
+  "show_notification": true
+}

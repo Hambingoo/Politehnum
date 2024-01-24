@@ -21,6 +21,11 @@ public class ModItemGroups {
                         entries.add(ModItems.POLITEHNUM);
 
                         entries.add(ModBlocks.POLITEHNUM_ORE);
+                        entries.add(ModItems.POLITEHNUM_DRILL);
+                        entries.add(ModItems.POLITEHNUM_CHAINSAW);
+                        entries.add(ModItems.POLITEHNUM_SHOVEL);
+                        entries.add(ModItems.POLITEHNUM_SWORD);
+                        entries.add(ModItems.POLITEHNUM_HOE);
 
 
                         entries.add(ModItems.POLITEHNUM_HELMET);
