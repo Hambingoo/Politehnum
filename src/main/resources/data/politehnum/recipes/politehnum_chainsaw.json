@@ -6,16 +6,16 @@
       "item": "politehnum:politehnum"
     },
     "C": {
-      "item": "minecraft:copper_ingot"
-    }
+    "item": "minecraft:copper_ingot"
+  }
   },
   "pattern": [
-    " X ",
+    "XX ",
     "XXX",
-    "XCX"
+    " XC"
   ],
   "result": {
-    "item": "politehnum:politehnum_pickaxe"
+    "item": "politehnum:politehnum_chainsaw"
   },
   "show_notification": true
 }
