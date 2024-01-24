@@ -4,6 +4,7 @@ import net.fabricmc.api.ModInitializer;
 import org.hambubklim.politehnum.Item.ModItemGroups;
 import org.hambubklim.politehnum.Item.ModItems;
 import org.hambubklim.politehnum.block.ModBlocks;
+import org.hambubklim.politehnum.util.ModLootTableModifiers;
 import org.hambubklim.politehnum.world.gen.ModOreGeneration;
 import org.hambubklim.politehnum.world.gen.ModWorldGeneration;
 import org.slf4j.Logger;
@@ -20,5 +21,6 @@ public class Politehnum implements ModInitializer {
         ModItemGroups.registerItemGroup();
         ModBlocks.registerModBlocks();
         ModWorldGeneration.generateModWorldGen();
+        ModLootTableModifiers.modifyLootTables();
     }
 }
