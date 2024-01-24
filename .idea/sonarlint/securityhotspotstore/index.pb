@@ -29,3 +29,12 @@ B
 LICENSE,0\3\0398ccd0f49298b10a3d76a47800d2ebecd49859
 <
 build.gradle,f\0\f07866736216be0ee2aba49e392191aeae700a35
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+j
+:src/main/java/org/hambubklim/politehnum/Item/ModItems.java,7\f\7f28214ee7bedac32826c399de75898437d42ac4
+o
+?src/main/java/org/hambubklim/politehnum/Item/ModItemGroups.java,8\5\85407180252aec9c74d9b8c1c90c3c9407df40cb
+l
+<src/main/java/org/hambubklim/politehnum/block/ModBlocks.java,6\d\6d60c109167ed5d1aac825bf372a4a1f52d30fae
