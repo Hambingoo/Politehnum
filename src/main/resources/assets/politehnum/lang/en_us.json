@@ -10,5 +10,6 @@
   "item.politehnum.politehnum_helmet": "Politehnum Helmet",
   "item.politehnum.politehnum_chestplate": "Politehnum Chestplate",
   "item.politehnum.politehnum_leggins": "Politehnum Leggins",
-  "item.politehnum.politehnum_boots": "Politehnum Boots"
+  "item.politehnum.politehnum_boots": "Politehnum Boots",
+  "tooltip.politehnum.3x3tools.tooltip": "Hold Shift for alternative use"
 }

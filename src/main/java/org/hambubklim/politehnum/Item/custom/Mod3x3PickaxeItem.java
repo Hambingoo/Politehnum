@@ -1,13 +1,18 @@
 package org.hambubklim.politehnum.Item.custom;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
+import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.item.ItemStack;
+import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.jetbrains.annotations.Nullable;
+
+import java.util.List;
 
 public class Mod3x3PickaxeItem extends PickaxeItem  {
     public Mod3x3PickaxeItem(ToolMaterial material, int attackDamage, float attackSpeed, Settings settings) {
@@ -84,5 +89,10 @@ public class Mod3x3PickaxeItem extends PickaxeItem  {
             }
         }
         return true;
+    }
+    @Override
+    public void appendTooltip(ItemStack stack, @Nullable World world, List<Text> tooltip, TooltipContext context) {
+        tooltip.add(Text.translatable("tooltip.politehnum.3x3tools.tooltip"));
+        super.appendTooltip(stack, world, tooltip, context);
     }
 }
