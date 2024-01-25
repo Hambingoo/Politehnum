@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "politehnum:block/end_politehnum_ore"
+  }
+}

@@ -1,9 +1,9 @@
 {
-  "feature": "politehnum:politehnum_ore",
+  "feature": "politehnum:nether_politehnum_ore",
   "placement": [
     {
       "type": "minecraft:count",
-      "count": 12
+      "count": 3
     },
     {
       "type": "minecraft:in_square"
@@ -13,10 +13,10 @@
       "height": {
         "type": "minecraft:uniform",
         "max_inclusive": {
-          "absolute": 80
+          "absolute": 40
         },
         "min_inclusive": {
-          "absolute": -80
+          "absolute": 24
         }
       }
     },
@@ -25,5 +25,3 @@
     }
   ]
 }
-
-

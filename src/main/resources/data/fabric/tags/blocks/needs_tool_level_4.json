@@ -1,6 +1,8 @@
 {
   "replace": false,
   "values": [
-    "politehnum:politehnum_ore"
+    "politehnum:politehnum_ore",
+    "politehnum:end_politehnum_ore",
+    "politehnum:nether_politehnum_ore"
   ]
 }

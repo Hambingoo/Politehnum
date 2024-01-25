@@ -39,7 +39,7 @@ public class ModConfiguratedFeatures {
                 List.of(OreFeatureConfig.createTarget(netherReplacables, ModBlocks.NETHER_POLITEHNUM_ORE.getDefaultState()));
 
         List<OreFeatureConfig.Target> endRubyOres =
-                List.of(OreFeatureConfig.createTarget(endReplacables, ModBlocks.END_STONE_POLITEHNUM_ORE.getDefaultState()));
+                List.of(OreFeatureConfig.createTarget(endReplacables, ModBlocks.END_POLITEHNUM_ORE.getDefaultState()));
 
         register(context, POLITEHNUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(overworldRubyOres, 12));
         register(context, NETHER_POLITEHNUM_ORE_KEY, Feature.ORE, new OreFeatureConfig(netherRubyOres, 12));
