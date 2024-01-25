@@ -10,6 +10,7 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
+import org.hambubklim.politehnum.block.ModBlocks;
 import org.jetbrains.annotations.Nullable;
 
 import java.util.List;
@@ -63,7 +64,9 @@ public class Mod3x3PickaxeItem extends PickaxeItem  {
                 || state.isOf(Blocks.IRON_ORE)|| state.isOf(Blocks.LAPIS_ORE)
                 || state.isOf(Blocks.DEEPSLATE_LAPIS_ORE)|| state.isOf(Blocks.DEEPSLATE_REDSTONE_ORE)
                 || state.isOf(Blocks.REDSTONE_ORE)|| state.isOf(Blocks.NETHER_GOLD_ORE)
-                || state.isOf(Blocks.NETHER_QUARTZ_ORE);
+                || state.isOf(Blocks.NETHER_QUARTZ_ORE)|| state.isOf(ModBlocks.POLITEHNUM_ORE)
+                || state.isOf(ModBlocks.DEEPSLATE_POLITEHNUM_ORE)|| state.isOf(ModBlocks.NETHER_POLITEHNUM_ORE)
+                || state.isOf(ModBlocks.END_STONE_POLITEHNUM_ORE);
         // Add more stone-like blocks as needed
     }
     private boolean BlockDestroy(ItemStack stack, World world, BlockState state, BlockPos pos, LivingEntity miner)

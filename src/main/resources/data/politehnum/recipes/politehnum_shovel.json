@@ -10,9 +10,9 @@
     }
   },
   "pattern": [
-    "X",
-    "C",
-    "C"
+    " XX",
+    " CX",
+    "C  "
   ],
   "result": {
     "item": "politehnum:politehnum_shovel"
